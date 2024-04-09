@@ -17,7 +17,7 @@ function App() {
                   <p>Take your art to the next level. Get it seen by millions of people</p>
 
                   <button type='submit'>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" fill='white' width="30px" height="30px"><path d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" fill='white' width="20px" height="20px"><path d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"/></svg>
                     <p>Join with Facebook</p>
                   </button>
                   
@@ -36,7 +36,7 @@ function App() {
                     <input type="email" placeholder='Email' required/>
                     <input type="password" placeholder='Password' required/>
 
-                    <button type='submit'>
+                    <button type='submit' className='btn-2'>
                       <p>Create a New Account</p>
                     </button>
 

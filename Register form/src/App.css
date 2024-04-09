@@ -12,7 +12,7 @@ html, body {
 }
 
 main {
-  height: 97.5vh;
+  height: 100vh;
 }
 
 .register-container {
@@ -74,7 +74,7 @@ main {
   border-radius: 5px;
   font-family: 'Jost';
   color: white;
-  gap: 10px;
+  gap: 5px;
   font-weight: 500;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
@@ -125,12 +125,13 @@ form input {
   border-radius: 5px;
 }
 
-form button {
+form .btn-2 {
+  width: 100%;
   background: #1E2B4B;
   font-family: 'Jost';
   color: white;
   font-weight: 500;
-  padding: 15px;
+  padding: 10px;
   border-radius: 5px;
   border: none;
   outline: none;
@@ -172,6 +173,10 @@ footer a {
 
   form input {
     width: 100%;
+  }
+
+  .register-header-text button svg {
+    display: none;
   }
 
 }
