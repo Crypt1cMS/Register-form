@@ -155,6 +155,10 @@ footer p {
   font-size: var(--font-size-p);
 }
 
+footer a {
+  color: black;
+}
+
 @media (max-width: 380px) {
   form {
     width: 70%;

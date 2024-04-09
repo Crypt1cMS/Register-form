@@ -43,7 +43,7 @@ function App() {
                   </form>
 
                   <footer>
-                    <p>By joining, you agree to our Terms of Service and Privacy Policy</p>
+                    <p>By joining, you agree to our <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a></p>
                   </footer>
 
               </div>
